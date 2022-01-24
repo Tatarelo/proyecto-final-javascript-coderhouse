@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "fabricante": "Fiat",
+    "motor": "1.3",
+    "modelo": "cronos",
+    "version": "Drive",
+    "consumo": "8",
+    "capacidadTanque": "42",
+    "img": "/imgs/cronos.jpg"
+  },
+
+  {
+    "id": "2",
+    "fabricante": "Chevrolet",
+    "motor": "1.2",
+    "modelo": "onix",
+    "version": "Joy",
+    "consumo": "8",
+    "capacidadTanque": "45",
+    "img": "/imgs/onix.jpg"
+  },
+
+  {
+    "id": "3",
+    "fabricante": "Ford",
+    "motor": "1.5",
+    "modelo": "ka",
+    "version": "Freestyle",
+    "consumo": "7",
+    "capacidadTanque": "65",
+    "img": "/imgs/ka.jpg"
+  },
+
+  {
+    "id": "4",
+    "fabricante": "Chevrolet",
+    "motor": "1.4T",
+    "modelo": "cruze",
+    "version": "Premier",
+    "consumo": "7",
+    "capacidadTanque": "70",
+    "img": "/imgs/cruze.jpg"
+  },
+
+  {
+    "id": "5",
+    "fabricante": "Nissan",
+    "motor": "1.6",
+    "modelo": "march",
+    "version": "Sense",
+    "consumo": "9",
+    "capacidadTanque": "42",
+    "img": "/imgs/march.jpg"
+  },
+
+  {
+    "id": "6",
+    "fabricante": "Toyota",
+    "motor": "3.0",
+    "modelo": "camry",
+    "version": "SEG",
+    "consumo": "13",
+    "capacidadTanque": "65",
+    "img": "/imgs/camry.jpg"
+  },
+
+  {
+    "id": "7",
+    "fabricante": "Honda",
+    "motor": "3.0",
+    "modelo": "accord",
+    "version": "EX",
+    "consumo": "11",
+    "capacidadTanque": "65",
+    "img": "/imgs/accord.jpg"
+  }
+]
