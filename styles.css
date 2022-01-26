@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(154, 208, 236);
   font-family: "https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap";
 }
 
@@ -47,14 +46,3 @@ body {
   margin-top: 50px;
 }
 
-.botonEnviar {
-  background-color: rgb(21, 114, 161);
-}
-
-.botonCargar {
-  background-color: rgb(21, 114, 161);
-}
-
-.card {
-  background-color: rgb(154, 208, 236);
-}
