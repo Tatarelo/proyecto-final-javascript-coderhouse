@@ -109,15 +109,15 @@ formConsumo.addEventListener("submit", (e) => {
   );
 
   if (!marcaIngresada.value.trim() || !distanciaIngresada.value.trim()) {
-    calculadorError.innerHTML = `Por favor complete el formulario`;
+    calculadorError.innerHTML = `<p class="text">Por favor complete el formulario⚠</p>`;
     return;
   } else if (leAlcanzaLosLitros) {
     divParrafo.innerHTML = `
-        <p>Puede recorrer esa distancia</p>
+        <p class="text">Puede recorrer esa distancia</p>
       `;
   } else {
     divParrafo.innerHTML = `
-          <p>No puede recorrer esa distancia</p>
+          <p class="text">No puede recorrer esa distancia</p>
         `;
   }
 });
@@ -135,7 +135,7 @@ formAutos.addEventListener("submit", (e) => {
     !capacidadTanque.value.trim() ||
     !consumo.value.trim()
   ) {
-    textoError.innerHTML = `Por favor llene todo el formulario`;
+    textoError.innerHTML = `<p class="text">Por favor llene todo el formulario⚠</p>`;
     return;
   }
 
