@@ -7,7 +7,7 @@
     "version": "Drive",
     "consumo": "8",
     "capacidadTanque": "42",
-    "img": "/imgs/cronos.jpg"
+    "img": "imgs/cronos.jpg"
   },
 
   {
@@ -18,7 +18,7 @@
     "version": "Joy",
     "consumo": "8",
     "capacidadTanque": "45",
-    "img": "/imgs/onix.jpg"
+    "img": "imgs/onix.jpg"
   },
 
   {
@@ -29,7 +29,7 @@
     "version": "Freestyle",
     "consumo": "7",
     "capacidadTanque": "65",
-    "img": "/imgs/ka.jpg"
+    "img": "imgs/ka.jpg"
   },
 
   {
@@ -40,7 +40,7 @@
     "version": "Premier",
     "consumo": "7",
     "capacidadTanque": "70",
-    "img": "/imgs/cruze.jpg"
+    "img": "imgs/cruze.jpg"
   },
 
   {
@@ -51,7 +51,7 @@
     "version": "Sense",
     "consumo": "9",
     "capacidadTanque": "42",
-    "img": "/imgs/march.jpg"
+    "img": "imgs/march.jpg"
   },
 
   {
@@ -62,7 +62,7 @@
     "version": "SEG",
     "consumo": "13",
     "capacidadTanque": "65",
-    "img": "/imgs/camry.jpg"
+    "img": "imgs/camry.jpg"
   },
 
   {
@@ -73,6 +73,6 @@
     "version": "EX",
     "consumo": "11",
     "capacidadTanque": "65",
-    "img": "/imgs/accord.jpg"
+    "img": "imgs/accord.jpg"
   }
 ]
