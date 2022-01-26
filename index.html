@@ -12,20 +12,23 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <title>Database de vehiculos</title>
 </head>
 
 <header id="header" class="header">
-    <img id="imgLogo" class="imgLogo"
-        src="imgs/logo.png"
-        alt="logo">
+    <img id="imgLogo" class="imgLogo" src="imgs/logo.png" alt="logo">
     <h1 id="title1" class="title1">Database de vehiculos</h1>
 </header>
 
 <body>
-    <div class="contenedor">
+    <div data-aos="zoom-in" data-aos-duration="3000" class="contenedor">
         <div class="container">
             <h2 id="title2" class="title2">Ingrese los datos del vehiculo</h1>
                 <form id="formAutos">
@@ -57,7 +60,7 @@
                         <label for="imagen" class="form-label"><b>Imagen del vehiculo (URL)</b></label>
                         <input type="url" class="form-control" id="imagen" name="imagen" />
                     </div>
-                    <button type="submit" class="btn btn-success">Cargar Auto</button><br /><br />
+                    <button type="submit" class="btn btn-success botonCargar">Cargar Auto</button><br /><br />
                     <p id="textoError"></p>
                 </form>
         </div>
@@ -73,19 +76,21 @@
                     <label for="distanciaIngresada" class="form-label"><b>Ingresa una distancia en "km"</b></label>
                     <input type="number" class="form-control" id="distanciaIngresada" name="distanciaIngresada" />
                 </div>
-                <button type="submit" class="btn btn-success">Enviar</button><br /><br />
+                <button type="submit" class="btn btn-success botonEnviar">Enviar</button><br /><br />
             </form>
             <div id="divParrafo" class="divParrafo"></div>
             <p id="calculadorError"></p>
         </div>
     </div>
 
-    <div class="container">
+    <div data-aos="zoom-in-left" data-aos-duration="2000" class="container">
         <div id="divAutos" class="row divAutos"></div>
     </div>
 
 
-    
+    <script>
+        AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 

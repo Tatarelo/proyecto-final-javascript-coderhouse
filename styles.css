@@ -1,45 +1,59 @@
-body{
-    background-color: whitesmoke;
+body {
+  background-color: rgb(154, 208, 236);
+  font-family: "https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap";
 }
 
-.header{
-    display: flex;
-    background-color: tomato;
-    height: 100px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.header {
+  display: flex;
+  background-color: rgb(21, 114, 161);
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgLogo{
-    height: 50px;
+.imgLogo {
+  height: 50px;
 }
 
-.title1{
-    margin-top: 10px;
+.title1 {
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
-.divCard{
-    margin: 20px;
+.divCard {
+  margin: 20px;
 }
 
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 100px;
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
 }
 
-.title2{
-    margin-bottom:  50px;
+.title2 {
+  margin-bottom: 50px;
 }
 
-.title3{
-    margin-bottom: 50px;
+.title3 {
+  margin-bottom: 50px;
 }
 
-.divAutos{
-    margin-top: 50px;
+.divAutos {
+  margin-top: 50px;
+}
+
+.botonEnviar {
+  background-color: rgb(21, 114, 161);
+}
+
+.botonCargar {
+  background-color: rgb(21, 114, 161);
+}
+
+.card {
+  background-color: rgb(154, 208, 236);
 }
